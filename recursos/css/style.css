@@ -1,0 +1,62 @@
+html{
+    font-size: 62.5%;
+
+
+}
+body{
+    font-size: 1.6rem;
+}
+
+.header{
+    background-color: #465b75;
+}
+.sub-header{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container-img img{
+    width: 20rem;
+}
+.h1-header{
+    color: #fff;
+    font-size: 2rem;
+}
+.sub-header .nav-header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+.nav-header a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-header{
+    padding: 3rem 10rem;
+}
+
+/* menu */
+.seccion-principal{
+    display: flex;
+    background-color: #dee9f7;
+    padding: 3rem;
+    overflow-x: hidden;
+}
+.menu{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: .1rem solid black;
+    padding: 2rem;
+    width: 20%;
+}
+.input{
+    border-radius: 1rem;
+    background-color: #ccc;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border: .1rem solid #000;
+}
