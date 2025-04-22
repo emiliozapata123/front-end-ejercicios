@@ -8,31 +8,37 @@ body{
 }
 
 .header{
-    background-color: #465b75;
-}
-.sub-header{
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 0 10rem 0 10rem;
+    background-color: #465b75;
+   
+}
+
+.container-img{
+    display: flex;
+    flex-direction: column;
+    gap: 9rem;
 }
 .container-img img{
     width: 20rem;
 }
-.h1-header{
+.container-img h1{
     color: #fff;
     font-size: 2rem;
 }
-.sub-header .nav-header{
+
+.nav-header{
     display: flex;
-    justify-content: flex-end;
     gap: 3rem;
+    padding: 3rem;
+
 }
 .nav-header a{
     text-decoration: none;
     color: #fff;
 }
-.nav-header{
-    padding: 3rem 10rem;
-}
+
 
 /* menu */
 .seccion-principal{
@@ -82,4 +88,24 @@ body{
 }
 .productos a{
     color: #000;
+}
+
+.footer{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 10rem 2rem 10rem;
+}
+
+.footer span{ 
+    color:#fff;
+}
+.footer p,a{
+    color: #fff;
+}
+
+.linea-divisora{
+    border: .1rem solid #fff;
+    width: 30rem;
 }
