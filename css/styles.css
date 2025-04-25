@@ -1,0 +1,108 @@
+@font-face {
+    font-family: segoi-ui;
+    src: url('../segoe-ui-4-cufonfonts/Segoe\ UI.ttf');
+}
+
+body {
+    font-family: segoi-ui;
+}
+
+img {
+    width: 10rem;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.img-grande{
+    width: 100%;
+}
+header li a{
+    color: #00f;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+.button{
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #00f;
+    color: #fff;
+    border-radius: .5rem;
+}
+.cont-img{
+    position: relative;
+}
+.cont-img h1{
+    color: #05f;
+    
+}
+.h1{
+    position: absolute;
+    transform: translateY(-50rem);
+    margin-left: 30rem;
+    font-size: 3rem;
+}
+.main2{
+    text-align: center;
+}
+.main2 h2{
+    color: #05f;
+    font-size: 6rem;
+}
+.equipos{
+    display: flex;
+}
+.equipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.equipo img{
+    width: 30rem;
+}
+.equipo h3,p{
+    width: 40%;
+}
+.equipo h3{
+    color: #fa0;
+}
+
+.f1{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 10rem 2rem 10rem;
+}
+.footer span{ 
+    color:#000;
+}
+.footer p,a{
+    color: #000;
+}
+
+.linea-divisora{
+    border: .1rem solid #fa0;
+    width: 30rem;
+}
+
+.ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff0000;
+}
+.ul img{
+    width: 5rem;
+}
+.t{
+    color: #05f;
+
+
+}
+.c{
+    color: #05f;
+
+
+}
