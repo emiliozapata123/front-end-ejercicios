@@ -12,11 +12,17 @@ img {
 }
 header{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    overflow-x: hidden;
+
 }
-.img-grande{
-    width: 100%;
+.sub-header{
+    display: flex;
+    align-items: center;
 }
+
 header li a{
     color: #00f;
 }
@@ -32,11 +38,32 @@ nav ul{
     color: #fff;
     border-radius: .5rem;
 }
+
+
 .cont-img{
     position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
+.img-grande{
+    width: 100vw;
+    height: 70rem;
+    background-size: cover;
+    
+}
+.bg-oscuro{
+    background-color: rgba(0, 0,0, .4);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+
 .cont-img h1{
-    color: #05f;
+    color: #053477;
     
 }
 .h1{
@@ -45,7 +72,49 @@ nav ul{
     margin-left: 30rem;
     font-size: 3rem;
 }
+/* main1 */
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 3rem;
+    
+}
+.h2{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+}
+.main h2{
+    margin: 0 auto;
+    color: #2A4B7A;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    width: 50rem;
+    font-size: 1.8rem;
+    color: #053477;
+
+}
+.main-items h3{
+    color: #fa0;
+}
+
+
+/* main2 */
 .main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 .main2 h2{
@@ -54,30 +123,43 @@ nav ul{
 }
 .equipos{
     display: flex;
+    gap: 4rem;
 }
 .equipo{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 30rem;
 }
 .equipo img{
     width: 30rem;
 }
-.equipo h3,p{
-    width: 40%;
-}
+
 .equipo h3{
     color: #fa0;
+    font-size: 3rem;
 }
 
-.f1{
+/* main3 */
+
+.main3{
+    background-color: #2A4B7A;
+}
+
+
+.footer{
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    flex-direction: column;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
     padding: 2rem 10rem 2rem 10rem;
 }
 .footer span{ 
     color:#000;
+    font-size: 3rem;
+    font-weight: bold;
 }
 .footer p,a{
     color: #000;
@@ -85,24 +167,30 @@ nav ul{
 
 .linea-divisora{
     border: .1rem solid #fa0;
-    width: 30rem;
+    max-width: 30rem;
 }
 
 .ul{
     display: flex;
-    justify-content: space-around;
-    background-color: #ff0000;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a00;
+    height: 5rem;
+
 }
-.ul img{
-    width: 5rem;
+li img{
+    width: 3rem;
 }
-.t{
+.a-footer{
     color: #05f;
 
 
 }
-.c{
-    color: #05f;
 
-
+.acerca-de,
+.medios,
+.contacto{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
 }
